@@ -14,10 +14,36 @@ The application provides a graphical interface where users can select movies, bo
 * 🔄 Reset booking system
 * 🖥️ Simple and user-friendly GUI
 
-🛠️ Technologies Used
+🛠️ Technologies & Concepts Used
 
-* Python 3
-* Tkinter – Graphical User Interface
+Programming Language
+
+* Python 3 – Core programming language used to develop the application.
+
+GUI Development
+
+* Tkinter – Used to create the graphical user interface, including windows, buttons, labels, input fields, frames, and message boxes.
+
+Python Concepts
+
+* Functions – Used to organize different parts of the application.
+* Lists & Dictionaries – Used to store movie details, seat availability, and booking information.
+* Loops – Used to dynamically create movie and seat buttons.
+* Conditional Statements – Used for seat availability checks and input validation.
+* Lambda Functions – Used to pass specific movie and seat values to button commands.
+* Event-Driven Programming – Used to handle user interactions such as button clicks and seat selection.
+* Global Variables – Used to maintain user and booking information across different functions.
+
+Data Handling
+
+* In-Memory Data Storage – Movie details, seat availability, and bookings are stored using Python lists and dictionaries during runtime.
+
+Development & Version Control
+
+* Python
+* Tkinter
+* Git
+* GitHub
 
 📂 Project Structure
 
@@ -49,7 +75,7 @@ Movie	Timing	Price	Audi
 Interstellar	9:00 PM	₹200	2
 Yeh Jawaani Hai Deewani	3:00 PM	₹120	3
 
-📸 Application
+📸 Application Workflow
 
 The application allows users to:
 
@@ -58,6 +84,7 @@ The application allows users to:
 3. Choose an available seat.
 4. View their booking details.
 5. Check the total ticket price.
+6. Reset the booking system when required.
 
 🔮 Future Improvements
 
@@ -72,4 +99,4 @@ The application allows users to:
 
 Sujal Raj
 
-Built as a Python GUI project to demonstrate programming fundamentals, event-driven programming, and GUI development using Tkinter.
+Built as a Python GUI project to demonstrate programming fundamentals, event-driven programming, GUI development, and basic data handling using Tkinter.
